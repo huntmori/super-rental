@@ -17,7 +17,6 @@ module('Acceptance | super rental', function (hooks) {
     assert.strictEqual(currentURL(), '/about');
   });
 
-
   test('visiting /about', async function (assert) {
     await visit('/about');
 
